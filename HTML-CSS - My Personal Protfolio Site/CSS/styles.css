@@ -1,0 +1,135 @@
+a {
+  color: #035558;
+  font-family: "Montserrat", serif;
+  margin: 10px 50px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Montserrat", serif;
+}
+.copyright{
+  color: #eaf6f6;
+  size: 0.75rem;
+}
+
+/* img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+} */
+
+.img {
+  border-radius: 50%;
+  width: 200px; /* or your preferred size */
+  height: 200px;
+  object-fit: cover;
+}
+h1 {
+  /* margin-top: 50px; */
+  /* width: 30%; */
+
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Bitcount Grid Single", system-ui;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.top-container {
+  background-color: #f0e4d3;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  /* line-height: 2; */
+}
+.middle-container {
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 30px;
+}
+p{
+  line-height: 2;
+}
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 60px auto;
+
+}
+.html-img {
+  margin-right: 30px;
+  float: left;
+  width: 20%;
+}
+.css-img {
+  float: right;
+  width: 20%;
+  margin-left: 30px;
+}
+/* .css-para{
+  clear: right;
+} */
+.centered-hr {
+  border: none;
+  border-top: 5px dotted grey;
+  width: 5%;
+  margin: 20px auto;
+}
+.btn {
+  background: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* soft shadow */
+  text-shadow: none; /* remove harsh glow */
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #11999e, #11cdd4); /* reverse gradient */
+  transform: translateY(-2px); /* subtle lift effect */
+}
+
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
